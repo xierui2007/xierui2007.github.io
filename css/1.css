@@ -1,0 +1,124 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin: 0;
+  padding: 0;
+}
+.lj:hover{text-decoration:underline;
+          color:#000;
+}
+.hm:hover{color:#FFF;
+}
+
+.tu{
+	border: 1px solid #000;
+}
+h2{
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 50px;
+	width: 120px;
+	font-size: 30px;
+	font-family: "黑体";
+	padding-top: 80px;
+}
+p{
+	width: 850px;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	font-family: "黑体";
+	line-height: 1.8em;
+	letter-spacing: 2px;
+}
+rt{font-size:50%}
+.hm{background-color:#000
+}
+#topbox{width:100%;
+		background-color:#FFF;
+		position:fixed;
+}	
+#top{
+	width:100%;
+	height: 80px;
+	text-align: center;
+	font-family: "字魂189号-星岩乐黑体";
+	font-size: 55px;
+	border: 3px solid #000;
+}
+#zbox{width:80px;
+      height:1080px;
+	  position:fixed;
+	  border: 3px solid #000;
+}
+#zuo{
+	width: 80px;
+	height: 1080px;
+	background-color: #fff;
+	margin-top: 83px;
+}
+
+
+
+#bbox{
+	width: 100%;
+	height: 420px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	padding-top: 83px;
+	background-image: url(../images/images/sm_b12.png);
+}
+#bli{
+	width: 100%;
+	height: 410px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	background-repeat: no-repeat;
+	border-bottom-width: 3px;
+	border-bottom-style: solid;
+	border-bottom-color: #000;
+	background-image: url(../images/images/1/104196796_p1.png);
+}
+
+
+#nbox{width:100%;
+      height:1786px;
+	  background-color:#f6fcfc;
+	  padding-top:80px;
+}
+#nr{
+	width: 950px;
+	height: 1700px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	margin-top:0px;
+	border-radius: 10px;
+	background-color:#FFF;
+}
+
+#yejiao{width:100%;
+        height:100px;
+		background-color:#ddf4f4;
+}
+.ywz{padding-top:25px;
+     width:800px;
+}
+#yejiao .ywz ul {
+	list-style-type: none;
+	margin-left:500px;
+	width:300px;
+}
+#yejiao .ywz ul li{
+	width: 60px;
+	float: left;
+	font-family: "Adobe 黑体 Std R";
+	font-size: 12px;
+	color: #626262;
+	cursor: pointer;
+}
+.lj{color:#626262;
+    text-decoration:none;
+}
