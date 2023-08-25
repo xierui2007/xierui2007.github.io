@@ -13,6 +13,17 @@
 .tu:hover{
 	background-image: url(../images/images/1/%E5%B0%8F.png)
 }
+@font-face{font-family:heiti;
+src:url(../simhei.ttf)
+}
+@font-face{font-family:heiti2;
+src:url(../AdobeHeitiStd-Regular.otf)
+}
+@font-face{font-family:zihun;
+src:url(../%E5%AD%97%E9%AD%82189%E5%8F%B7-%E6%98%9F%E5%B2%A9%E4%B9%90%E9%BB%91%E4%BD%93.ttf)
+}
+
+
 
 
 #topbox{width:100%;
@@ -23,7 +34,7 @@
 	width:100%;
 	height: 80px;
 	text-align: center;
-	font-family: "字魂189号-星岩乐黑体";
+	font-family: zihun;
 	font-size: 55px;
 	border: 3px solid #000;
 }
@@ -119,7 +130,7 @@
 
 .bt{
 	font-size: 89px;
-	font-family: "字魂189号-星岩乐黑体";
+	font-family: zihun;
 	color: #FFF;
 	width: 360px;
 	margin-left: auto;
@@ -129,7 +140,7 @@
 	cursor: default;
 }
 .bwz{font-size:62px;
-     font-family:"字魂189号-星岩乐黑体";
+     font-family:zihun;
 	 color:#FFF;
 	 margin-top:100px;
 	 margin-left:100px;
@@ -146,7 +157,7 @@
 
 #nbox{
 	width: 950px;
-	height: 800px;
+	height: 950px;
 	margin-right: auto;
 	margin-bottom: 0px;
 	margin-left: auto;
@@ -182,12 +193,12 @@
      padding-top:150px;
 }
 .rq{color:#FFF;
-    font-family:"黑体";
+    font-family:heiti;
 	font-size:10px;
 	margin-bottom:2px;
 }
 .tbt{color:#FFF;
-     font-family:"黑体";
+     font-family:heiti;
 	 font-size:20px;
 }
 #anniu{
@@ -195,7 +206,7 @@
 	height: 40px;
 	margin-left:auto;
 	margin-right:auto;
-	padding-top:720px;
+	padding-top:860px;
 }
 .an{
 	border-radius: 20px;
@@ -244,7 +255,7 @@
 #yejiao .ywz ul li{
 	width: 60px;
 	float: left;
-	font-family: "Adobe 黑体 Std R";
+	font-family: heiti2;
 	font-size: 12px;
 	color: #626262;
 	cursor: pointer;
