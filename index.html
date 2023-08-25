@@ -84,15 +84,16 @@
 <li style="width:250px; font-weight:bold;
       color:#000000;cursor: default; font-family:'黑体'; font-size:13px;letter-spacing: 2px;">
 	<script language=JavaScript>
+<script language=JavaScript>
 <!--
 var caution = false
-function setCookie(name, value, expires, path, domain, secure) {
+function setCookie(name, value, expires, path, domain, secure){
 var curCookie = name + "=" + escape(value) +
 ((expires) ? "; expires=" + expires.toGMTString() : "") +
 ((path) ? "; path=" + path : "") +
 ((domain) ? "; domain=" + domain : "") +
 ((secure) ? "; secure" : "")
-if (!caution || (name + "=" + escape(value)).length <= 4000)
+if (!caution || (name + "=" + escape(value)).length<= 4000)
 document.cookie = curCookie
 else
 if (confirm("Cookie exceeds 4KB and will be cut!"))
@@ -103,10 +104,10 @@ var prefix = name + "="
 var cookieStartIndex = document.cookie.indexOf(prefix)
 if (cookieStartIndex == -1)
 return null
-var cookieEndIndex = document.cookie.indexOf(";", cookieStartIndex + prefix.length)
+var cookieEndIndex = document.cookie.indexOf(";", cookieStartIndex+ prefix.length)
 if (cookieEndIndex == -1)
 cookieEndIndex = document.cookie.length
-return unescape(document.cookie.substring(cookieStartIndex + prefix.length, cookieEndIndex))
+return unescape(document.cookie.substring(cookieStartIndex +prefix.length, cookieEndIndex))
 }
 function deleteCookie(name, path, domain) {
 if (getCookie(name)) {
@@ -134,6 +135,7 @@ setCookie("counter", visits, now)
 document.write("本站总访问量" + visits + "次")
 // -->
 </script>
+
 </li>
     </ul>
 
