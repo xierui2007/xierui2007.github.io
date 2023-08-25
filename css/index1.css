@@ -1,0 +1,254 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin: 0;
+  padding: 0;
+}
+.xyy:hover{background-color:#FFF;
+}
+.an:hover{background-color:#fff;
+}
+.lj:hover{text-decoration:underline;
+          color:#000;
+}
+.tu:hover{
+	background-image: url(../images/images/1/%E5%B0%8F.png)
+}
+
+
+#topbox{width:100%;
+		background-color:#FFF;
+		position:fixed;
+}	
+#top{
+	width:100%;
+	height: 80px;
+	text-align: center;
+	font-family: "字魂189号-星岩乐黑体";
+	font-size: 55px;
+	border: 3px solid #000;
+}
+#zbox{width:80px;
+      height:1080px;
+	  position:fixed;
+	  border: 3px solid #000;
+}
+#zuo{
+	width: 80px;
+	height: 1080px;
+	background-color: #fff;
+	margin-top: 83px;
+}
+
+
+
+#bbox{
+	width: 100%;
+	height: 920px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	background-image: url(../images/images/sm_b12.png);
+}
+#bli{
+	width: 1280px;
+	height: 724px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	border: 3px solid #000;
+	padding-top:83px;
+}
+#bzuo{
+	width: 580px;
+	height: 724px;
+	border-right-width: 3px;
+	border-right-style: solid;
+	border-right-color: #000;
+	background-repeat: no-repeat;
+	float:left;
+}
+#byou{width:697px;
+      height:724px;
+	  background-color:#5889c9;
+	  float:right
+}
+#bxia{
+	width: 1286px;
+	height: 30px;
+    margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+#bxzuo{
+	width: 424px;
+	height: 30px;
+	background-color: #81d7d7;
+	float: left;
+	border-right-width: 3px;
+	border-right-style: solid;
+	border-right-color: #000;
+	border-bottom-width: 3px;
+	border-bottom-style: solid;
+	border-bottom-color: #000;
+	border-left-style: solid;
+	border-left-color: #000;
+}
+#bxzhong{width:426px;
+         height:30px;
+		 background-color:#81d7d7;
+		 float:left;
+		 border-right-width: 3px;
+	     border-right-style: solid;
+	     border-right-color: #000;
+       	 border-bottom-width: 3px;
+	     border-bottom-style: solid;
+	     border-bottom-color: #000;
+}
+#bxyou{
+	width: 424px;
+	height: 30px;
+	background-color: #81d7d7;
+	float: left;
+	border-bottom-width: 3px;
+	border-bottom-style: solid;
+	border-bottom-color: #000;
+	border-right-width: 3px;
+	border-right-style: solid;
+	border-right-color: #000;
+}
+
+.bt{
+	font-size: 89px;
+	font-family: "字魂189号-星岩乐黑体";
+	color: #FFF;
+	width: 360px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+	text-shadow: 1px 1px 10px #233750;
+	cursor: default;
+}
+.bwz{font-size:62px;
+     font-family:"字魂189号-星岩乐黑体";
+	 color:#FFF;
+	 margin-top:100px;
+	 margin-left:100px;
+	 text-shadow: 1px 1px 10px #233750;
+	 cursor: default;
+}
+.jt{
+	margin-left: 380px;
+	margin-top: 240px;
+	cursor: pointer;
+	text-shadow: 1px 1px 10px #233750;
+	cursor: pointer;
+}
+
+#nbox{
+	width: 950px;
+	height: 800px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	margin-top: 180px;
+	border-radius: 40px;
+	background-color: #f6fcfc;
+}
+
+.one{
+	width: 350px;
+	height: 200px;
+	padding: 10px;
+	margin-left: 50px;
+	margin-top: 50px;
+	float: left;
+	cursor: pointer;
+}
+
+.one1{width:350px;
+     height:200px;
+	 padding:10px;
+	 margin-right:50px;
+	 margin-top:50px;
+	 float:right;
+}
+.tu{
+	width: 350px;
+	height: 200px;
+	background-image: url(../images/images/1/%E5%B0%8F1.png);
+	background-repeat: no-repeat;
+}
+.xzi{margin-left:15px;
+     padding-top:150px;
+}
+.rq{color:#FFF;
+    font-family:"黑体";
+	font-size:10px;
+	margin-bottom:2px;
+}
+.tbt{color:#FFF;
+     font-family:"黑体";
+	 font-size:20px;
+}
+#anniu{
+	width: 300px;
+	height: 40px;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:720px;
+}
+.an{
+	border-radius: 20px;
+	background-color: #e5e5e5;
+	font-size: 16px;
+	padding: 9px 14px;
+	margin: 50px;
+	color: #333;
+	font-weight: bold;
+	cursor: pointer;
+}
+.xyy{
+	background-color: #e5e5e5;
+	border-radius: 20px;
+	font-size: 16px;
+	padding: 9px 11px;
+	color: #333;
+	font-family: "方正兰亭粗黑_GBK";
+	font-weight:bold;
+	cursor: pointer;
+}
+.syy{
+	background-color: #e5e5e5;
+	border-radius: 20px;
+	font-size: 16px;
+	padding: 9px 11px;
+	color: #333;
+	font-family: "方正兰亭粗黑_GBK";
+	font-weight: bold;
+	cursor: pointer;
+}
+
+#yejiao{width:100%;
+        height:120px;
+		background-color:#ddf4f4;
+		margin-top:120px;
+}
+.ywz{padding-top:25px;
+     width:800px;
+}
+#yejiao .ywz ul {
+	list-style-type: none;
+	margin-left:500px;
+	width:300px;
+}
+#yejiao .ywz ul li{
+	width: 60px;
+	float: left;
+	font-family: "Adobe 黑体 Std R";
+	font-size: 12px;
+	color: #626262;
+	cursor: pointer;
+}
+.lj{color:#626262;
+    text-decoration:none;
+}
