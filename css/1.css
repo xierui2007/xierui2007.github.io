@@ -3,14 +3,25 @@
 *{margin: 0;
   padding: 0;
 }
+body {
+	background-color: #f6fcfc;
+}
 .lj:hover{text-decoration:underline;
           color:#000;
 }
 .hm:hover{color:#FFF;
 }
-body {
-	background-color: #f6fcfc;
+@font-face{font-family:heiti;
+src:url(../simhei.ttf)
 }
+@font-face{font-family:heiti2;
+src:url(../AdobeHeitiStd-Regular.otf)
+}
+@font-face{font-family:zihun;
+src:url(../%E5%AD%97%E9%AD%82189%E5%8F%B7-%E6%98%9F%E5%B2%A9%E4%B9%90%E9%BB%91%E4%BD%93.ttf)
+}
+
+
 
 .tu{
 	border: 1px solid #000;
@@ -21,7 +32,7 @@ h2{
 	padding-bottom: 50px;
 	width: 120px;
 	font-size: 30px;
-	font-family: "黑体";
+	font-family: heiti;
 	padding-top: 80px;
 }
 p{
@@ -30,7 +41,7 @@ p{
 	margin-right: auto;
 	margin-bottom: 0px;
 	margin-left: auto;
-	font-family: "黑体";
+	font-family: heiti;
 	line-height: 1.8em;
 	letter-spacing: 2px;
 }
@@ -45,7 +56,7 @@ rt{font-size:50%}
 	width:100%;
 	height: 80px;
 	text-align: center;
-	font-family: "字魂189号-星岩乐黑体";
+	font-family:zihun;
 	font-size: 55px;
 	border: 3px solid #000;
 }
@@ -88,12 +99,12 @@ rt{font-size:50%}
 
 #nbox{width:100%;
       height:auto;
-      background-color:#f6fcfc;
-      padding-top:80px;
+	  background-color:#f6fcfc;
+	  padding-top:80px;
 }
 #nr{
 	width: 950px;
-	height: auto;
+	height:auto;
 	margin-right: auto;
 	margin-bottom: 0px;
 	margin-left: auto;
@@ -104,8 +115,8 @@ rt{font-size:50%}
 
 #yejiao{width:100%;
         height:100px;
-	background-color:#ddf4f4;
-	margin-top:120px;
+		background-color:#ddf4f4;
+		margin-top:120px;
 }
 .ywz{padding-top:25px;
      width:800px;
@@ -118,7 +129,7 @@ rt{font-size:50%}
 #yejiao .ywz ul li{
 	width: 60px;
 	float: left;
-	font-family: "Adobe 黑体 Std R";
+	font-family:heiti2;
 	font-size: 12px;
 	color: #626262;
 	cursor: pointer;
