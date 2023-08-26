@@ -10,9 +10,10 @@
 .lj:hover{text-decoration:underline;
           color:#000;
 }
-.tu:hover{
-	background-image: url(../images/images/1/%E5%B0%8F.png)
-}
+.one:hover{border: 
+	3px solid  #d1d1d1;}
+
+
 @font-face{font-family:heiti;
 src:url(../simhei.ttf)
 }
@@ -168,12 +169,14 @@ src:url(../%E5%AD%97%E9%AD%82189%E5%8F%B7-%E6%98%9F%E5%B2%A9%E4%B9%90%E9%BB%91%E
 
 .one{
 	width: 350px;
-	height: 200px;
+	height: 250px;
 	padding: 10px;
 	margin-left: 50px;
 	margin-top: 50px;
 	float: left;
 	cursor: pointer;
+	border: 3px solid  #f6fcfc;
+	border-radius: 20px;
 }
 
 .one1{width:350px;
@@ -186,6 +189,8 @@ src:url(../%E5%AD%97%E9%AD%82189%E5%8F%B7-%E6%98%9F%E5%B2%A9%E4%B9%90%E9%BB%91%E
 .tu{
 	width: 350px;
 	height: 200px;
+	margin-top:10;
+	border-radius: 10px;
 	background-image: url(../images/images/1/%E5%B0%8F1.png);
 	background-repeat: no-repeat;
 }
@@ -201,6 +206,12 @@ src:url(../%E5%AD%97%E9%AD%82189%E5%8F%B7-%E6%98%9F%E5%B2%A9%E4%B9%90%E9%BB%91%E
      font-family:heiti;
 	 font-size:20px;
 }
+.xbt{font-size:15px;
+     font-family:heiti;
+	 color:#000;
+	 text-decoration:none;
+	 font-weight:bold;
+	}
 #anniu{
 	width: 300px;
 	height: 40px;
