@@ -12,6 +12,8 @@ body {
 }
 .hm:hover{color:#FFF;
 }
+.zs:target {background-color:#def;
+}
 @font-face{font-family:heiti;
 src:url(../simhei.ttf)
 }
@@ -42,8 +44,20 @@ p{
 	line-height: 1.8em;
 	letter-spacing: 2px;
 }
+ol{	width: 790px;
+	margin-right: auto;
+	margin-left: auto;
+	font-family: heiti;
+	line-height: 1.8em;
+	letter-spacing: 2px;
+	padding:25px;
+	font-size:15px;
+}
 rt{font-size:50%}
-.hm{background-color:#000
+.hm{
+	background-color: #000;
+	transition: color 0.13s linear;
+	text-shadow: none;
 }
 #topbox{width:100%;
 		background-color:#FFF;
@@ -178,4 +192,23 @@ rt{font-size:50%}
 }
 .lj{color:#626262;
     text-decoration:none;
+}
+
+/*滑动条设置*/
+::-webkit-scrollbar {
+    height: 100%;
+	border-left-color:#000;
+	border-left-style:solid;
+	border-left-width:3px;
+	border-right-color:#000;
+	border-right-style:solid;
+	border-right-width:3px;
+}
+/*滑块设置*/
+::-webkit-scrollbar-thumb {
+    background-color:#81d7d7;
+	border:3px solid #000;
+}
+/*框选，背景颜色*/
+::selection{background:#81d7d7;
 }
