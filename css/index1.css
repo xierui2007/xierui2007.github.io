@@ -30,7 +30,9 @@ src:url(../%E5%AD%97%E9%AD%82189%E5%8F%B7-%E6%98%9F%E5%B2%A9%E4%B9%90%E9%BB%91%E
 }
 
 
-
+#zhu{width:1920px;
+     height:auto;
+}
 #topbox{width:1920px;
 		background-color:#FFF;
 		position:fixed;
@@ -44,13 +46,13 @@ src:url(../%E5%AD%97%E9%AD%82189%E5%8F%B7-%E6%98%9F%E5%B2%A9%E4%B9%90%E9%BB%91%E
 	border: 3px solid #000;
 }
 #zbox{width:80px;
-      height:2270px;
+      height:2285px;
 	  position:fixed;
 	  border: 3px solid #000;
 }
 #zuo{
 	width: 80px;
-	height: 2190px;
+	height: 2202px;
 	background-color: #fff;
 	margin-top: 83px;
 }
@@ -196,6 +198,7 @@ src:url(../%E5%AD%97%E9%AD%82189%E5%8F%B7-%E6%98%9F%E5%B2%A9%E4%B9%90%E9%BB%91%E
 	height: 200px;
 	margin-top:10;
 	border-radius: 10px;
+	box-shadow: 0 0 10px rgb(0 0 0 / 25%);
 }
 .xzi{
 	margin-left: auto;
@@ -267,7 +270,7 @@ src:url(../%E5%AD%97%E9%AD%82189%E5%8F%B7-%E6%98%9F%E5%B2%A9%E4%B9%90%E9%BB%91%E
 }
 
 #yejiao{width:100%;
-        height:100px;
+        height:120px;
 		background-color:#ddf4f4;
 		margin-top:120px;
 		box-shadow: 0 0 10px rgb(0 0 0 / 5%);
